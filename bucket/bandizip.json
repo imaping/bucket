@@ -5,23 +5,7 @@
   "license": "MIT",
   "url": "https://raw.githubusercontent.com/ifooling/bucket-soft/refs/heads/main/soft/BANDIZIP-SETUP6.26.EXE",
   "hash": "431515793F1E6CFB52C1195726ED75031A75853336393B081513E8045D6C3EF9",
-  "architecture": {
-    "64bit": {
-      "pre_install": [
-        "Rename-Item \"$dir\\Bandizip64.exe\" 'Bandizip.exe'",
-        "Remove-Item \"$dir\\Bandizip32.exe\"",
-        "if (!(Test-Path \"$persist_dir\\Bandizip.ini\")) { New-Item \"$dir\\Bandizip.ini\" -ItemType File | Out-Null }"
-      ]
-    },
-    "32bit": {
-      "pre_install": [
-        "Rename-Item \"$dir\\Bandizip32.exe\" 'Bandizip.exe'",
-        "Remove-Item \"$dir\\Bandizip64.exe\"",
-        "if (!(Test-Path \"$persist_dir\\Bandizip.ini\")) { New-Item \"$dir\\Bandizip.ini\" -ItemType File | Out-Null }"
-      ]
-    }
-  },
-  "bin": "Bandizip.exe",
+  "bin": "BANDIZIP-SETUP6.26.EXE",
   "shortcuts": [
     [
       "Bandizip.exe",
