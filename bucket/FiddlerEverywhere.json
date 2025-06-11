@@ -5,6 +5,7 @@
     "license": "MIT",
     "url": "https://github.com/ifooling/bucket-soft/blob/main/soft/Fiddler%20Everywhere%205.10.zip",
     "bin": "Fiddler Everywhere.exe",
+    "hash": "91ae084d53c0a91bff150c91e3708ba68eb0d3202fc63bfff05b7c915df87bb7",
     "shortcuts": [
         [
             "Fiddler Everywhere.exe",
