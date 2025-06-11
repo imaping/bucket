@@ -4,10 +4,10 @@
   "homepage": "https://github.com/imaping/bucket",
   "license": "Freeware",
   "url": "https://raw.githubusercontent.com/ifooling/bucket-soft/refs/heads/main/soft/BANDIZIP-SETUP6.26.EXE#/dl.7z",
-  "bin": "Bandizip.exe",
+  "bin": "Bandizip64.exe",
   "shortcuts": [
     [
-      "Bandizip.exe",
+      "Bandizip64.exe",
       "Bandizip"
     ]
   ]
