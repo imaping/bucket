@@ -3,7 +3,7 @@
   "description": "bandizip",
   "homepage": "https://github.com/imaping/bucket",
   "license": "MIT",
-  "url": "https://media.githubusercontent.com/media/ifooling/bucket-soft/refs/heads/main/soft/BANDIZIP-SETUP6.26.EXE",
+  "url": "https://raw.githubusercontent.com/ifooling/bucket-soft/refs/heads/main/soft/BANDIZIP-SETUP6.26.EXE",
   "hash": "431515793F1E6CFB52C1195726ED75031A75853336393B081513E8045D6C3EF9",
   "architecture": {
     "64bit": {
