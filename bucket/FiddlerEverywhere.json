@@ -3,7 +3,7 @@
     "description": "Fiddler Everywhere",
     "homepage": "https://github.com/imaping/bucket",
     "license": "MIT",
-    "url": "https://github.com/ifooling/bucket-soft/blob/main/soft/Fiddler%20Everywhere%205.10.zip",
+    "url": "https://media.githubusercontent.com/media/ifooling/bucket-soft/refs/heads/main/soft/Fiddler Everywhere 5.10.zip",
     "bin": "Fiddler Everywhere.exe",
     "hash": "EF7A5DCFE2F290477DFAEEAA80C0C790116AB11086CCFD67153B523B5DC98835",
     "shortcuts": [
