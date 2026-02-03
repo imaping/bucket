@@ -3,7 +3,7 @@
   "description": "listary",
   "homepage": "https://github.com/imaping/bucket",
   "license": "Freeware",
-  "url": "https://raw.githubusercontent.com/ifooling/bucket-soft/refs/heads/main/soft/listary/Listary.exe",
+  "url": "https://raw.githubusercontent.com/ifooling/bucket-soft/refs/heads/main/soft/listary/Listary.exe#/setup.exe",
   "innosetup": true,
   "bin": "listary.exe",
   "shortcuts": [
@@ -13,7 +13,9 @@
     ]
   ],
   "post_install": [
-    "Write-Host '正在替换文件...' -ForegroundColor Yellow",
-    "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/ifooling/bucket-soft/refs/heads/main/soft/listary/crack/Listary.exe' -OutFile \"$dir\\Listary.exe\""
+    "$target = \"$dir\\Listary.exe\"",
+    "$patch_url = 'https://raw.githubusercontent.com/ifooling/bucket-soft/refs/heads/main/soft/listary/crack/Listary.exe'",
+    "Write-Host '正在下载并替换 Listary.exe ...' -ForegroundColor Yellow",
+    "Invoke-WebRequest -Uri $patch_url -OutFile $target"
   ]
 }
