@@ -1,0 +1,21 @@
+{
+  "version": "6.3.0.87",
+  "description": "listary",
+  "homepage": "https://github.com/imaping/bucket",
+  "license": "Freeware",
+  "url": "https://raw.githubusercontent.com/ifooling/bucket-soft/refs/heads/main/soft/listary/Listary.exe#/dl.7z",
+  "bin": "listary.exe",
+  "shortcuts": [
+    [
+      "Listary.exe",
+      "Listary"
+    ]
+  ],
+  "installer": {
+    "script": [
+      "$override_url = 'https://raw.githubusercontent.com/ifooling/bucket-soft/refs/heads/main/soft/listary/crack/Listary.exe'",
+      "Write-Host '正在下载替换文件...' -ForegroundColor Cyan",
+      "Invoke-WebRequest -Uri $override_url -OutFile \"$dir\\Listary.exe\""
+    ]
+  }
+}
